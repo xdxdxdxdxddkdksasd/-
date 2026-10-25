@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "porog_tishiny",
+  "version": "${version}",
+  "name": "Порог Тишины",
+  "description": "Атмосферный хоррор о тишине, памяти и потере голоса.",
+  "authors": ["You"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.porogtishiny.PorogTishiny"],
+    "client": ["com.porogtishiny.client.PorogTishinyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
